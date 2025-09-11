@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "/lovable-uploads/41a6eac1-b9e4-40f9-ad15-4902d2be918b.png";
 
 const HeroSection = () => {
   return (
