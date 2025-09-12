@@ -38,6 +38,7 @@ const HeroSection = () => {
                 variant="outline" 
                 size="lg"
                 className="border-primary/30 text-primary hover:bg-primary/10"
+                asChild
               >
                 <a href="/ContactSection"</a> Get in Touch
               </Button>
