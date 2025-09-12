@@ -10,9 +10,9 @@ const Index = () => {
       <Navigation />
       <main>
         <HeroSection />
-        <AboutSection />
-        <ServicesSection />
-        <ContactSection />
+        {/*<AboutSection />/*}
+        {/*<ServicesSection />/*}
+        {/*<ContactSection />/*}
       </main>
     </div>
   );
