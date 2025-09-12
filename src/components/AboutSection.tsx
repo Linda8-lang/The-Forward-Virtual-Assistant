@@ -63,7 +63,7 @@ const AboutSection = () => {
                 { skill: "Excel & Google Sheets", level: "Advanced", percentage: "95%" },
                 { skill: "SQL & Databases", level: "Advanced", percentage: "85%" },
                 { skill: "Statistical Analysis", level: "Advanced", percentage: "80%" },
-                { skill: "Project Management", level: "Proficient", percentage: "85%" }
+                { skill: "Project Management", level: "Proficient", percentage: "80%" }
               ].map((item, index) => (
                 <div key={index} className="space-y-2">
                   <div className="flex justify-between text-sm">
@@ -83,10 +83,8 @@ const AboutSection = () => {
             <div className="mt-8 p-6 bg-gradient-to-br from-primary/5 to-accent/5 rounded-lg border border-primary/20">
               <h4 className="font-semibold text-primary mb-2">Experience Highlights</h4>
               <ul className="text-sm text-muted-foreground space-y-1">
-                <li>• 50+ successful data projects</li>
-                <li>• 30+ satisfied clients</li>
-                <li>• 5+ years in data analysis</li>
-                <li>• Multiple industry expertise</li>
+                <li>• 10+ successful data projects</li>
+                <li>• 5+ years in educational data analysis</li>
               </ul>
             </div>
           </div>
