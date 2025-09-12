@@ -40,7 +40,7 @@ const HeroSection = () => {
                 className="border-primary/30 text-primary hover:bg-primary/10"
                 asChild
               >
-                <a href="/ContactSection"</a> Get in Touch
+                <a href="/ContactSection">Get in Touch </a>
               </Button>
             </div>
           </div>
