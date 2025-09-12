@@ -36,8 +36,8 @@ const ServicesSection = () => {
 
   const benefits = [
     { icon: Clock, title: "Fast Turnaround", description: "Most projects completed within 3-5 business days" },
-    { icon: Award, title: "Quality Guarantee", description: "100% satisfaction guarantee with unlimited revisions" }
-    {/* icon: TrendingUp, title: "Proven Results", description: "Helped 50+ businesses make better data-driven decisions" */}
+    { icon: Award, title: "Quality Guarantee", description: "100% satisfaction guarantee with unlimited revisions" },
+    {icon: TrendingUp, title: "Proven Results", description: "Helped 1+ businesses make better data-driven decisions" }
   ];
 
   return (
