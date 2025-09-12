@@ -10,6 +10,7 @@ const Index = () => {
       <Navigation />
       <main>
         <HeroSection />
+        {/*Comment out the About, Services, Contact*/}
         {/*<AboutSection />*/}
         {/*<ServicesSection />*/}
         {/*<ContactSection />*/}
