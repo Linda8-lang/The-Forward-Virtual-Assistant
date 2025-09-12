@@ -75,9 +75,9 @@ const ServicesSection = () => {
                     </li>
                   ))}
                 </ul>
-                <Button variant="outline" className="w-full mt-4 border-primary/30 hover:bg-primary hover:text-primary-foreground">
-                  Learn More
-                </Button>
+                {/*Button variant="outline" className="w-full mt-4 border-primary/30 hover:bg-primary hover:text-primary-foreground"
+                 {/* Learn More*/}
+                {/*Button*/}
               </CardContent>
             </Card>
           ))}
