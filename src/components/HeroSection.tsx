@@ -39,7 +39,7 @@ const HeroSection = () => {
                 size="lg"
                 className="border-primary/30 text-primary hover:bg-primary/10"
               >
-                Get in Touch
+                <a href="/ContactSection"</a> Get in Touch
               </Button>
             </div>
           </div>
