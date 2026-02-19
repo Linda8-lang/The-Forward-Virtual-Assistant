@@ -8,21 +8,21 @@ const ServicesSection = () => {
       icon: Database,
       title: "Data Modeling",
       description: "Design robust data structures and relationships that serve as the foundation for reliable analysis.",
-      features: ["Entity Relationship Design", "Data Schema Optimization", "Performance Tuning"],
+      features: ["Entity Relationship Design", "Data Schema Optimization", "Performance Tuning"]
       //price: "Starting at $150"
     },
     {
       icon: BarChart3,
       title: "Data Cleaning",
       description: "Transform messy, incomplete data into clean, reliable datasets ready for analysis.",
-      features: ["Data Validation", "Duplicate Removal", "Missing Value Treatment"],
+      features: ["Data Validation", "Duplicate Removal", "Missing Value Treatment"]
       //price: "Starting at $100"
     },
     {
       icon: Palette,
       title: "Data Visualization",
       description: "Create compelling visual stories that make complex data insights accessible to stakeholders.",
-      features: ["Interactive Dashboards", "Custom Charts", "Report Design"],
+      features: ["Interactive Dashboards", "Custom Charts", "Report Design"]
       //price: "Starting at $200"
     },
     {
