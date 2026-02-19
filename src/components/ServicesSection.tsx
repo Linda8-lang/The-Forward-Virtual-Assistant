@@ -9,28 +9,28 @@ const ServicesSection = () => {
       title: "Data Modeling",
       description: "Design robust data structures and relationships that serve as the foundation for reliable analysis.",
       features: ["Entity Relationship Design", "Data Schema Optimization", "Performance Tuning"],
-      price: "Starting at $150"
+      //price: "Starting at $150"
     },
     {
       icon: BarChart3,
       title: "Data Cleaning",
       description: "Transform messy, incomplete data into clean, reliable datasets ready for analysis.",
       features: ["Data Validation", "Duplicate Removal", "Missing Value Treatment"],
-      price: "Starting at $100"
+      //price: "Starting at $100"
     },
     {
       icon: Palette,
       title: "Data Visualization",
       description: "Create compelling visual stories that make complex data insights accessible to stakeholders.",
       features: ["Interactive Dashboards", "Custom Charts", "Report Design"],
-      price: "Starting at $200"
+      //price: "Starting at $200"
     },
     {
       icon: TrendingUp,
       title: "Data Analysis",
       description: "Extract actionable insights and patterns that drive strategic business decisions.",
       features: ["Statistical Analysis", "Trend Identification", "Predictive Modeling"],
-      price: "Starting at $250"
+      //price: "Starting at $250"
     }
   ];
 
