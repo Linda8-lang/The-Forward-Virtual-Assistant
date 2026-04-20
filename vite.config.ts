@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/The-Forward-Virtual-Assistant/",   // 👈 ADD THIS LINE
+  base: "/",
 
   server: {
     host: "::",
