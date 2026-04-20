@@ -9,12 +9,7 @@ const AboutSection = () => {
             About Linda Aluso
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-             Business Intelligence Analyst & Virtual Assistant with a passion for turning data into actionable insights
-          </p>
-          <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto mt-6"></div>
-        </div>
-        
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            Business Intelligence Analyst & Virtual Assistant with a passion for turning data into actionable insights
           {/* Personal Story */}
           <div className="lg:col-span-2 space-y-6">
             <div>
