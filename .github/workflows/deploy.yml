@@ -28,5 +28,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: docs # Change this to 'build' if that is your output folder
+          folder: dist # Changed from 'docs' to 'dist' to match vite build output
           branch: gh-pages
