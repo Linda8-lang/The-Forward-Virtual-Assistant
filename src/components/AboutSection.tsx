@@ -20,7 +20,7 @@ const AboutSection = () => {
             <div>
               <h3 className="text-2xl font-semibold text-primary mb-4">My Story</h3>
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                Welcome to The Forward Virtual Assistant (TFVA). I'm Linda Aluso, a dedicated business intelligence professional with over 5 years of experience in transforming complex datasets into clear, actionable business insights.
+                Welcome to The Forward Virtual Assistant (TFVA). I'm Linda Aluso, a dedicated business intelligence professional with over 2 years of experience in transforming complex datasets into clear, actionable business insights.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                 My journey began with a fascination for patterns hidden within numbers. Today, I help businesses across various industries make informed decisions through comprehensive data analysis, visualization, and strategic insights.
