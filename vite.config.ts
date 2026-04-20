@@ -5,6 +5,11 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   base: "/The-Forward-Virtual-Assistant/",
+  
+  build: {
+    outDir: "docs",
+    emptyOutDir: true,
+  },
 
   server: {
     host: "::",
