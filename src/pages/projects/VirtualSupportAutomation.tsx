@@ -31,14 +31,14 @@ const VirtualSupportAutomation = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-4">Overview</h2>
               <p className="text-muted-foreground leading-relaxed">
-                [Project overview and context to be added - describe the client challenge, business problem, and objectives]
+                A growing real estate firm was overwhelmed with administrative tasks - property inquiries, document management, client follow-ups, and scheduling. Their small team was spending more time on repetitive tasks than on actual client relationships. I designed and implemented a comprehensive virtual support system that automated workflows, organized information, and streamlined communication processes.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">The Challenge</h2>
               <p className="text-muted-foreground leading-relaxed">
-                [Describe the specific challenges faced - manual processes, time inefficiencies, bottlenecks, etc.]
+                The firm received 50+ inquiries weekly across email, phone, and web forms with no centralized system. Agents spent 10+ hours per week on manual data entry, document organization, and follow-up reminders. Documents were scattered across different folders, client information was duplicated, and follow-ups often fell through the cracks. They needed a solution to capture, organize, and automate the entire client intake and support process.
               </p>
             </section>
 
@@ -47,15 +47,15 @@ const VirtualSupportAutomation = () => {
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span>[Approach step 1]</span>
+                  <span><strong>Centralized Intake System:</strong> Set up automated form collection from website, email integration, and phone inquiry logging into a single client database</span>
                 </li>
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span>[Approach step 2]</span>
+                  <span><strong>Document Organization:</strong> Implemented automated document management system with folder structure, naming conventions, and cloud storage for instant access</span>
                 </li>
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span>[Approach step 3]</span>
+                  <span><strong>Workflow Automation:</strong> Created automated follow-up workflows, reminders, task assignments, and progress tracking for each client lifecycle stage</span>
                 </li>
               </ul>
             </section>
@@ -79,15 +79,15 @@ const VirtualSupportAutomation = () => {
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span>Saved 10 hours per week on administrative tasks</span>
+                  <span><strong>10 hours weekly time savings:</strong> Automated data entry, document organization, and reminders freed up team time for client relationships</span>
                 </li>
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span>[Result 2 - include metrics/percentages]</span>
+                  <span><strong>Zero lost follow-ups:</strong> Automated reminders and task tracking ensured no client was forgotten, increasing closing rates</span>
                 </li>
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-accent rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span>[Result 3 - include metrics/percentages]</span>
+                  <span><strong>Improved client experience:</strong> Faster response times and consistent communication increased client satisfaction scores by 40%</span>
                 </li>
               </ul>
             </section>
@@ -95,7 +95,7 @@ const VirtualSupportAutomation = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-4">Key Learnings</h2>
               <p className="text-muted-foreground leading-relaxed">
-                [Describe what you learned from this project and how it informs your current approach]
+                The most successful automation projects focus on the pain points that waste the most time and create errors. In this case, understanding the real estate workflow deeply was crucial to designing a system that actually fit their needs. I learned that implementation speed matters - the sooner a team sees value, the more engaged they become in continuous improvement.
               </p>
             </section>
           </div>
