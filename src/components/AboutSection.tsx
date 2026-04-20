@@ -20,7 +20,7 @@ const AboutSection = () => {
             <div>
               <h3 className="text-2xl font-semibold text-primary mb-4">My Story</h3>
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                Welcome to The Forward Virtual Assistant (TFVA). I'm Linda Aluso, a dedicated data professional with over 2 years of experience in transforming complex datasets into clear, actionable business insights.
+                Welcome to The Forward Virtual Assistant (TFVA). I'm Linda Aluso, a dedicated business intelligence professional with over 5 years of experience in transforming complex datasets into clear, actionable business insights.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                 My journey began with a fascination for patterns hidden within numbers. Today, I help businesses across various industries make informed decisions through comprehensive data analysis, visualization, and strategic insights.
@@ -59,10 +59,11 @@ const AboutSection = () => {
             <div className="space-y-4">
               {[
                 { skill: "Data Analysis", level: "Expert", percentage: "95%" },
+                { skill: "Business Intelligence Tools", level: "Expert", percentage: "90%" },
+                { skill: "Microsoft Fabric", level: "Intermediate", percentage: "75%" },
+                { skill: "Snowflake", level: "Intermediate", percentage: "70%" },
                 { skill: "Data Visualization", level: "Expert", percentage: "90%" },
                 { skill: "Excel & Google Sheets", level: "Advanced", percentage: "95%" },
-                { skill: "Microsoft Fabric", level: "Intermediate", percentage : "70%"},
-                { skill: "Snowflake", level:"Intermediate", percentage :"75%"},
                 { skill: "SQL & Databases", level: "Advanced", percentage: "85%" },
                 { skill: "Statistical Analysis", level: "Advanced", percentage: "80%" },
                 { skill: "Project Management", level: "Proficient", percentage: "80%" }
@@ -86,7 +87,7 @@ const AboutSection = () => {
               <h4 className="font-semibold text-primary mb-2">Experience Highlights</h4>
               <ul className="text-sm text-muted-foreground space-y-1">
                 <li>• 10+ successful data projects</li>
-                <li>• 5+ years in educational data analysis</li>
+                <li>• 2+ years in educational data analysis</li>
               </ul>
             </div>
           </div>
