@@ -26,13 +26,13 @@ const HeroSection = () => {
                 Uncovering the stories behind numbers with professional data analysis and virtual assistance services.
               </p>
             </div>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button 
-                size="lg" 
-                className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant"
+              size="lg" 
+              className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant"
+              asChild
               >
-                View My Work
+              <a href="#projects">View My Work</a>
               </Button>
               <Button 
                 variant="outline" 
