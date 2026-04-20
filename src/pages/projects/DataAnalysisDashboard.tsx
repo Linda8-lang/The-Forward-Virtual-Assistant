@@ -43,21 +43,38 @@ const DataAnalysisDashboard = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold mb-4">My Approach</h2>
-              <ul className="space-y-3 text-muted-foreground">
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span><strong>Data Integration:</strong> Used Python with Pandas to consolidate data from 5 different sources, standardizing formats and resolving inconsistencies</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span><strong>Cleaning & Validation:</strong> Implemented data quality checks, removed duplicates, handled missing values, and validated against business rules</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span><strong>Interactive Visualization:</strong> Built dynamic Tableau dashboards with filters for date ranges, store locations, and product categories for real-time exploration</span>
-                </li>
-              </ul>
+              <h2 className="text-2xl font-semibold mb-4">Dashboard Preview</h2>
+              <div className="bg-secondary/20 rounded-lg p-8 text-center border-2 border-dashed border-primary/30">
+                <div className="text-6xl mb-4">📊</div>
+                <p className="text-muted-foreground mb-2">Interactive Sales Dashboard Screenshot</p>
+                <p className="text-sm text-muted-foreground">Real-time sales trends, store performance metrics, and seasonal analysis visualizations</p>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">Key Visualizations</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="bg-secondary/20 rounded-lg p-6 text-center border-2 border-dashed border-primary/30">
+                  <div className="text-4xl mb-3">📈</div>
+                  <h4 className="font-semibold mb-2">Sales Trend Analysis</h4>
+                  <p className="text-sm text-muted-foreground">Monthly sales trends with seasonal patterns and growth indicators</p>
+                </div>
+                <div className="bg-secondary/20 rounded-lg p-6 text-center border-2 border-dashed border-primary/30">
+                  <div className="text-4xl mb-3">🏪</div>
+                  <h4 className="font-semibold mb-2">Store Performance Map</h4>
+                  <p className="text-sm text-muted-foreground">Geographic visualization of store performance and revenue distribution</p>
+                </div>
+                <div className="bg-secondary/20 rounded-lg p-6 text-center border-2 border-dashed border-primary/30">
+                  <div className="text-4xl mb-3">📊</div>
+                  <h4 className="font-semibold mb-2">Product Category Breakdown</h4>
+                  <p className="text-sm text-muted-foreground">Top-performing product categories and margin analysis</p>
+                </div>
+                <div className="bg-secondary/20 rounded-lg p-6 text-center border-2 border-dashed border-primary/30">
+                  <div className="text-4xl mb-3">⏰</div>
+                  <h4 className="font-semibold mb-2">Time-based Analysis</h4>
+                  <p className="text-sm text-muted-foreground">Peak hours, seasonal patterns, and forecasting models</p>
+                </div>
+              </div>
             </section>
 
             <section>

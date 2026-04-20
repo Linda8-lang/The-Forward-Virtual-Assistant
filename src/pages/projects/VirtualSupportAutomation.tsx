@@ -43,21 +43,33 @@ const VirtualSupportAutomation = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold mb-4">My Approach</h2>
-              <ul className="space-y-3 text-muted-foreground">
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span><strong>Centralized Intake System:</strong> Set up automated form collection from website, email integration, and phone inquiry logging into a single client database</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span><strong>Document Organization:</strong> Implemented automated document management system with folder structure, naming conventions, and cloud storage for instant access</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span><strong>Workflow Automation:</strong> Created automated follow-up workflows, reminders, task assignments, and progress tracking for each client lifecycle stage</span>
-                </li>
-              </ul>
+              <h2 className="text-2xl font-semibold mb-4">Workflow Visualization</h2>
+              <div className="bg-secondary/20 rounded-lg p-8 text-center border-2 border-dashed border-primary/30">
+                <div className="text-6xl mb-4">🔄</div>
+                <p className="text-muted-foreground mb-2">Automated Client Intake Process Flow</p>
+                <p className="text-sm text-muted-foreground">From initial inquiry to project completion - streamlined workflow diagram</p>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">System Components</h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="bg-secondary/20 rounded-lg p-6 text-center border-2 border-dashed border-primary/30">
+                  <div className="text-4xl mb-3">📧</div>
+                  <h4 className="font-semibold mb-2">Email Integration</h4>
+                  <p className="text-sm text-muted-foreground">Automated inquiry capture and response routing</p>
+                </div>
+                <div className="bg-secondary/20 rounded-lg p-6 text-center border-2 border-dashed border-primary/30">
+                  <div className="text-4xl mb-3">📁</div>
+                  <h4 className="font-semibold mb-2">Document Management</h4>
+                  <p className="text-sm text-muted-foreground">Organized file storage with instant access</p>
+                </div>
+                <div className="bg-secondary/20 rounded-lg p-6 text-center border-2 border-dashed border-primary/30">
+                  <div className="text-4xl mb-3">⏰</div>
+                  <h4 className="font-semibold mb-2">Automated Reminders</h4>
+                  <p className="text-sm text-muted-foreground">Smart follow-up scheduling and notifications</p>
+                </div>
+              </div>
             </section>
 
             <section>

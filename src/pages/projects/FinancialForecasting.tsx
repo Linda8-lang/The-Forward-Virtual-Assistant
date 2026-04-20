@@ -43,21 +43,38 @@ const FinancialForecasting = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold mb-4">My Approach</h2>
-              <ul className="space-y-3 text-muted-foreground">
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span><strong>Data Consolidation:</strong> Aggregated 3 years of financial data from multiple sources, standardizing categories and reconciling discrepancies</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span><strong>Pattern Analysis:</strong> Identified seasonal trends, fixed vs variable costs, and growth patterns using statistical analysis and trend decomposition</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span><strong>Predictive Modeling:</strong> Built forecasting models incorporating historical averages, seasonality adjustments, and projected growth scenarios for 12-month and 3-year outlooks</span>
-                </li>
-              </ul>
+              <h2 className="text-2xl font-semibold mb-4">Forecasting Dashboard</h2>
+              <div className="bg-secondary/20 rounded-lg p-8 text-center border-2 border-dashed border-primary/30">
+                <div className="text-6xl mb-4">💰</div>
+                <p className="text-muted-foreground mb-2">Financial Forecasting Model Interface</p>
+                <p className="text-sm text-muted-foreground">Interactive budget planning tool with scenario analysis and variance tracking</p>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">Key Analytics Visualizations</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="bg-secondary/20 rounded-lg p-6 text-center border-2 border-dashed border-primary/30">
+                  <div className="text-4xl mb-3">📈</div>
+                  <h4 className="font-semibold mb-2">Expense Trend Analysis</h4>
+                  <p className="text-sm text-muted-foreground">Historical spending patterns with seasonal adjustments</p>
+                </div>
+                <div className="bg-secondary/20 rounded-lg p-6 text-center border-2 border-dashed border-primary/30">
+                  <div className="text-4xl mb-3">🎯</div>
+                  <h4 className="font-semibold mb-2">Forecast Accuracy Chart</h4>
+                  <p className="text-sm text-muted-foreground">Model performance metrics and prediction intervals</p>
+                </div>
+                <div className="bg-secondary/20 rounded-lg p-6 text-center border-2 border-dashed border-primary/30">
+                  <div className="text-4xl mb-3">💡</div>
+                  <h4 className="font-semibold mb-2">Cost Optimization Insights</h4>
+                  <p className="text-sm text-muted-foreground">Identified savings opportunities and efficiency gains</p>
+                </div>
+                <div className="bg-secondary/20 rounded-lg p-6 text-center border-2 border-dashed border-primary/30">
+                  <div className="text-4xl mb-3">📊</div>
+                  <h4 className="font-semibold mb-2">Scenario Planning</h4>
+                  <p className="text-sm text-muted-foreground">Best/worst case projections and sensitivity analysis</p>
+                </div>
+              </div>
             </section>
 
             <section>
