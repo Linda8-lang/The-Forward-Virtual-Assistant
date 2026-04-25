@@ -21,10 +21,10 @@ const DataAnalysisDashboard = () => {
         <article className="space-y-8">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Data Analysis Dashboard
+              Autism & Epilepsy Analytics Dashboard
             </h1>
             <p className="text-xl text-muted-foreground">
-              Interactive visualization of sales trends using Python and Tableau
+              Clinical analytics for autism and epilepsy using Power BI and actionable dataset insights.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ const DataAnalysisDashboard = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-4">Overview</h2>
               <p className="text-muted-foreground leading-relaxed">
-                A mid-sized retail company struggled with disconnected sales data spread across multiple spreadsheets and legacy systems. They needed a unified, real-time dashboard to track sales trends, identify patterns, and make quick business decisions. I developed a comprehensive interactive dashboard using Python for data processing and Tableau for visualization.
+                A healthcare team needed a clear, unified view of autism and epilepsy analytics from fragmented clinical sources. They required insights into diagnosis trends, co-occurring conditions, and patient outcomes. I developed a clinical analytics dashboard using Power BI to bring those insights to life and support better care decisions.
               </p>
             </section>
 
