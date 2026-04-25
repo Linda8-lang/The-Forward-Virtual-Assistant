@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ChevronLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import reportPdf from "@/assets/autism_epilepsy_report.pdf";
 
 const DataAnalysisDashboard = () => {
   const navigate = useNavigate();
@@ -21,10 +20,10 @@ const DataAnalysisDashboard = () => {
         <article className="space-y-8">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Autism & Epilepsy Analytics Dashboard
+              Data Analysis Dashboard
             </h1>
             <p className="text-xl text-muted-foreground">
-              Clinical analytics for autism and epilepsy using Power BI and actionable dataset insights.
+              Interactive visualization of sales trends using Python and Tableau
             </p>
           </div>
 
@@ -32,7 +31,7 @@ const DataAnalysisDashboard = () => {
             <section>
               <h2 className="text-2xl font-semibold mb-4">Overview</h2>
               <p className="text-muted-foreground leading-relaxed">
-                A healthcare team needed a clear, unified view of autism and epilepsy analytics from fragmented clinical sources. They required insights into diagnosis trends, co-occurring conditions, and patient outcomes. I developed a clinical analytics dashboard using Power BI to bring those insights to life and support better care decisions.
+                A mid-sized retail company struggled with disconnected sales data spread across multiple spreadsheets and legacy systems. They needed a unified, real-time dashboard to track sales trends, identify patterns, and make quick business decisions. I developed a comprehensive interactive dashboard using Python for data processing and Tableau for visualization.
               </p>
             </section>
 
@@ -49,37 +48,6 @@ const DataAnalysisDashboard = () => {
                 <div className="text-6xl mb-4">📊</div>
                 <p className="text-muted-foreground mb-2">Interactive Sales Dashboard Screenshot</p>
                 <p className="text-sm text-muted-foreground">Real-time sales trends, store performance metrics, and seasonal analysis visualizations</p>
-              </div>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold mb-4">Live Project & Report</h2>
-              <div className="grid gap-4 md:grid-cols-2">
-                <a
-                  href={reportPdf}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="rounded-2xl border border-primary/30 bg-secondary/20 p-6 hover:bg-secondary transition-colors"
-                >
-                  <div className="text-4xl mb-3">📄</div>
-                  <h3 className="text-lg font-semibold mb-2">Download Placeholder Report</h3>
-                  <p className="text-sm text-muted-foreground">
-                    View the uploaded analysis report for the dashboard placeholder use case.
-                  </p>
-                </a>
-
-                <a
-                  href="https://app.powerbi.com/view?r=eyJrIjoiMDY0ZmY5YWYtM2U0MS00YzAwLTgyYzItNGViNjVjODkxNWE3IiwidCI6ImRkMjQ2ZTRhLTU0MzQtNGUxNS04YWUzLTkxYWQ5Nzk3YjIwOSIsImMiOjN9"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="rounded-2xl border border-primary/30 bg-secondary/20 p-6 hover:bg-secondary transition-colors"
-                >
-                  <div className="text-4xl mb-3">🔗</div>
-                  <h3 className="text-lg font-semibold mb-2">View Live Power BI Project</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Open the live Power BI dashboard for the featured project.
-                  </p>
-                </a>
               </div>
             </section>
 
