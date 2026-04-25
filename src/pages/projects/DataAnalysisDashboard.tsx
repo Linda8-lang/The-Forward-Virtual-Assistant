@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import reportPdf from "@/assets/autism_epilepsy_report.pdf";
 
 const DataAnalysisDashboard = () => {
   const navigate = useNavigate();
@@ -48,6 +49,37 @@ const DataAnalysisDashboard = () => {
                 <div className="text-6xl mb-4">📊</div>
                 <p className="text-muted-foreground mb-2">Interactive Sales Dashboard Screenshot</p>
                 <p className="text-sm text-muted-foreground">Real-time sales trends, store performance metrics, and seasonal analysis visualizations</p>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">Live Project & Report</h2>
+              <div className="grid gap-4 md:grid-cols-2">
+                <a
+                  href={reportPdf}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-2xl border border-primary/30 bg-secondary/20 p-6 hover:bg-secondary transition-colors"
+                >
+                  <div className="text-4xl mb-3">📄</div>
+                  <h3 className="text-lg font-semibold mb-2">Download Placeholder Report</h3>
+                  <p className="text-sm text-muted-foreground">
+                    View the uploaded analysis report for the dashboard placeholder use case.
+                  </p>
+                </a>
+
+                <a
+                  href="https://app.powerbi.com/view?r=eyJrIjoiMDY0ZmY5YWYtM2U0MS00YzAwLTgyYzItNGViNjVjODkxNWE3IiwidCI6ImRkMjQ2ZTRhLTU0MzQtNGUxNS04YWUzLTkxYWQ5Nzk3YjIwOSIsImMiOjN9"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-2xl border border-primary/30 bg-secondary/20 p-6 hover:bg-secondary transition-colors"
+                >
+                  <div className="text-4xl mb-3">🔗</div>
+                  <h3 className="text-lg font-semibold mb-2">View Live Power BI Project</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Open the live Power BI dashboard for the featured project.
+                  </p>
+                </a>
               </div>
             </section>
 
