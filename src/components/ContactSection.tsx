@@ -9,16 +9,9 @@ const ContactSection = () => {
       label: "WhatsApp",
       value: "+254702430510",
       href: "https://wa.me/254702430510",
-      emoji: "📱"
+      emoji: "🟢"
     },
-    {
-      icon: Phone,
-      label: "Phone",
-      value: "+254702430510", 
-      href: "tel:+254702430510",
-      emoji: "☎️"
-    },
-    {
+  {
       icon: Mail,
       label: "Email",
       value: "alusolinda2020@gmail.com",
@@ -32,13 +25,13 @@ const ContactSection = () => {
       label: "Twitter",
       value: "@LOpudo",
       href: "https://twitter.com/LOpudo",
-      emoji: "🐦"
+      emoji: "𝕏"
     },
     {
       label: "LinkedIn", 
       value: "View Profile",
       href: "https://www.linkedin.com/in/linda-aluso-business-data-analytics/",
-      emoji: "💼"
+      emoji: "🔗"
     }
   ];
 
