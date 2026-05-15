@@ -10,6 +10,12 @@ const projects = [
     url: "/projects/data-analysis-dashboard"
   },
   {
+    title: "Dynamic Row-Level Security",
+    description: "Implementation of dynamic row-level security in Power BI.",
+    tags: ["Power BI", "Security"],
+    url: "/projects/dynamic-row-level-security"
+  },
+  {
     title: "Virtual Support Automation",
     description: "Streamlined workflow for a real estate firm, saving 10 hours weekly.",
     tags: ["Virtual Assistance", "Automation"],
