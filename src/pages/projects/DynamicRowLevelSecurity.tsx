@@ -40,7 +40,7 @@ const DynamicRowLevelSecurity = () => {
               <div className="grid gap-4 md:grid-cols-2">
 
                 <a
-                  href="https://github.com/Linda8-lang/Dynamic-Row-Level-Security"
+                  href="https://github.com/Linda8-lang/Dynamic-Row-Level-Security/blob/main/README.md"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-2xl border border-primary/30 bg-secondary/20 p-6 hover:bg-secondary transition-colors"
