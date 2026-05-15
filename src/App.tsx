@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import DataAnalysisDashboard from "./pages/projects/DataAnalysisDashboard";
+import DynamicRowLevelSecurity from "./pages/projects/DynamicRowLevelSecurity";
 import VirtualSupportAutomation from "./pages/projects/VirtualSupportAutomation";
 import FinancialForecasting from "./pages/projects/FinancialForecasting";
 
