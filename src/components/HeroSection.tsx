@@ -15,6 +15,9 @@ const HeroSection = () => {
           {/* Text Content */}
           <div className="text-center lg:text-left space-y-8">
             <div className="space-y-4">
+              <p className="text-sm font-semibold uppercase tracking-widest text-primary">
+                The Forward Virtual Assistant
+              </p>
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   Quality Data.
@@ -23,16 +26,19 @@ const HeroSection = () => {
                 <span className="text-foreground">Better Decisions.</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl">
-                Uncovering the stories behind numbers with professional data analysis and virtual assistance services.
+                Technical virtual assistance for growing businesses. We clean, model and analyse your data, then turn it into Power BI dashboards and reports your team can act on.
               </p>
+              {/* Previous tagline, kept for reference:
+                Uncovering the stories behind numbers with professional data analysis and virtual assistance services.
+              */}
             </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button 
-              size="lg" 
+              <Button
+              size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant"
               asChild
               >
-              <a href="#projects">View My Work</a>
+              <a href="#services">Explore Our Services</a>
               </Button>
               <Button 
                 variant="outline" 
@@ -40,7 +46,7 @@ const HeroSection = () => {
                 className="border-primary/30 text-primary hover:bg-primary/10"
                 asChild
               >
-                <a href="#contact">Get in Touch </a>
+                <a href="#contact">Start Your Project</a>
               </Button>
             </div>
           </div>
@@ -51,7 +57,7 @@ const HeroSection = () => {
               <div className="w-80 h-80 rounded-full overflow-hidden shadow-elegant ring-4 ring-primary/20">
                 <img 
                   src={profilePhoto} 
-                  alt="Professional headshot" 
+                  alt="Linda Aluso, founder of The Forward Virtual Assistant"
                   className="w-full h-full object-cover"
                 />
               </div>

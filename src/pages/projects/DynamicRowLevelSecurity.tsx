@@ -46,9 +46,9 @@ const DynamicRowLevelSecurity = () => {
                   className="rounded-2xl border border-primary/30 bg-secondary/20 p-6 hover:bg-secondary transition-colors"
                 >
                   <div className="text-4xl mb-3">🔗</div>
-                  <h3 className="text-lg font-semibold mb-2">View DRLS Power BI Project</h3>
+                  <h3 className="text-lg font-semibold mb-2">View DRLS Project on GitHub</h3>
                   <p className="text-sm text-muted-foreground">
-                    Open the dynamic row-level security demonstration in Power BI.
+                    Open the dynamic row-level security demonstration and its documentation on GitHub.
                   </p>
                 </a>
               </div>

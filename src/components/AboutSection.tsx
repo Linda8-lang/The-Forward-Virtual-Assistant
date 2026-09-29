@@ -6,10 +6,10 @@ const AboutSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            About Linda Aluso
+            About The Forward Virtual Assistant
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Business Intelligence Analyst & Virtual Assistant with a passion for turning data into actionable insights
+            Founded by Linda Aluso, Business Intelligence Analyst & Virtual Assistant, to turn business data into actionable insights
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto mt-6"></div>
         </div>
@@ -18,7 +18,7 @@ const AboutSection = () => {
           {/* Personal Story */}
           <div className="lg:col-span-2 space-y-6">
             <div>
-              <h3 className="text-2xl font-semibold text-primary mb-4">My Story</h3>
+              <h3 className="text-2xl font-semibold text-primary mb-4">Meet the Founder</h3>
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                 Welcome to The Forward Virtual Assistant (TFVA). I'm Linda Aluso, a dedicated business intelligence professional with over 2 years of experience in transforming complex datasets into clear, actionable business insights.
               </p>
@@ -31,7 +31,7 @@ const AboutSection = () => {
             </div>
 
             <div>
-              <h3 className="text-2xl font-semibold text-primary mb-4">My Approach</h3>
+              <h3 className="text-2xl font-semibold text-primary mb-4">How We Work</h3>
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-primary rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -53,9 +53,30 @@ const AboutSection = () => {
             </div>
           </div>
 
-          {/* Skills & Expertise */}
+          {/* Tools & Expertise */}
           <div>
-            <h3 className="text-2xl font-semibold text-primary mb-6">Expertise & Skills</h3>
+            <h3 className="text-2xl font-semibold text-primary mb-6">Tools We Work With</h3>
+            <div className="flex flex-wrap gap-2">
+              {[
+                "Power BI",
+                "Microsoft Fabric",
+                "Snowflake",
+                "SQL & Databases",
+                "Excel & Google Sheets",
+                "Data Visualization",
+                "Statistical Analysis",
+                "Project Management"
+              ].map((tool) => (
+                <span
+                  key={tool}
+                  className="rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-sm font-medium text-foreground"
+                >
+                  {tool}
+                </span>
+              ))}
+            </div>
+
+            {/* Percentage skill bars hidden: they read like a CV rather than a business offering.
             <div className="space-y-4">
               {[
                 { skill: "Data Analysis", level: "Expert", percentage: "95%" },
@@ -82,6 +103,7 @@ const AboutSection = () => {
                 </div>
               ))}
             </div>
+            */}
 
             <div className="mt-8 p-6 bg-gradient-to-br from-primary/5 to-accent/5 rounded-lg border border-primary/20">
               <h4 className="font-semibold text-primary mb-2">Experience Highlights</h4>

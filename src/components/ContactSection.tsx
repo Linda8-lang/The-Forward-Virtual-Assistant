@@ -40,15 +40,15 @@ const ContactSection = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent mb-6">
-            Contact Me
+            Start Your Project
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to help you move forward with confidence
+            Tell us what you need and we'll get back to you to discuss the next steps
           </p>
         </div>
 
         <Card className="p-8 backdrop-blur-sm bg-background/80 border border-primary/20 shadow-2xl">
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2">
             {contactMethods.map((method) => (
               <Button
                 key={method.label}
@@ -91,7 +91,7 @@ const ContactSection = () => {
 
           <div className="mt-8 text-center">
             <p className="text-lg italic text-primary font-medium">
-              I'm just a message away. Ready to help you move forward with confidence.
+              We're just a message away. Ready to help your business move forward with confidence.
             </p>
           </div>
         </Card>

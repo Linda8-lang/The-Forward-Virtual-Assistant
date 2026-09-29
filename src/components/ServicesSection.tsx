@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { BarChart3, Database, Palette, TrendingUp, Clock, Award } from "lucide-react";
+import { BarChart3, Database, Palette, TrendingUp, Clock, Award, MessageCircle } from "lucide-react";
 
 const ServicesSection = () => {
   const services = [
@@ -37,7 +37,9 @@ const ServicesSection = () => {
   const benefits = [
     { icon: Clock, title: "Fast Turnaround", description: "Most projects completed within 3-5 business days" },
     { icon: Award, title: "Quality Guarantee", description: "100% satisfaction guarantee with unlimited revisions" },
-    { icon: TrendingUp, title: "Proven Results", description: "Helped 1+ businesses make better data-driven decisions" }
+    { icon: MessageCircle, title: "Remote & Responsive", description: "Work with us remotely over WhatsApp, email and shared workspaces" },
+    // Hidden until there are real figures to show:
+    // { icon: TrendingUp, title: "Proven Results", description: "Helped 1+ businesses make better data-driven decisions" }
   ];
 
   return (
@@ -46,10 +48,10 @@ const ServicesSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Professional Data Services
+            Technical Virtual Assistant Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive data solutions tailored to your business needs. From raw data to actionable insights.
+            Remote data support for businesses that need reliable numbers without hiring a full-time analyst. From raw data to actionable insights.
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto mt-6"></div>
         </div>
@@ -63,7 +65,9 @@ const ServicesSection = () => {
                   <service.icon className="h-8 w-8 text-primary" />
                 </div>
                 <CardTitle className="text-xl text-primary">{service.title}</CardTitle>
+                {/* Price line hidden while prices are commented out above:
                 <p className="text-2xl font-bold text-accent">{service.price}</p>
+                */}
               </CardHeader>
               <CardContent className="text-center space-y-4">
                 <p className="text-muted-foreground">{service.description}</p>
@@ -100,8 +104,8 @@ const ServicesSection = () => {
         <div className="text-center mt-16">
           <h3 className="text-2xl font-bold mb-4 text-foreground">Ready to Transform Your Data?</h3>
           <p className="text-muted-foreground mb-6">Let's discuss your project and create a custom solution for your needs.</p>
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant">
-            Start Your Project
+          <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant" asChild>
+            <a href="#contact">Start Your Project</a>
           </Button>
         </div>
       </div>
