@@ -16,7 +16,7 @@ const HeroSection = () => {
           <div className="text-center lg:text-left space-y-8">
             <div className="space-y-4">
               <p className="text-sm font-semibold uppercase tracking-widest text-primary">
-                The Forward Virtual Assistant
+                The Forward Analytics
               </p>
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                 <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
@@ -26,7 +26,7 @@ const HeroSection = () => {
                 <span className="text-foreground">Better Decisions.</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl">
-                Technical virtual assistance for growing businesses. We clean, model and analyse your data, then turn it into Power BI dashboards and reports your team can act on.
+                Analytics support for growing businesses. We clean, model and analyse your data, then turn it into Power BI dashboards and reports your team can act on.
               </p>
               {/* Previous tagline, kept for reference:
                 Uncovering the stories behind numbers with professional data analysis and virtual assistance services.
@@ -57,7 +57,7 @@ const HeroSection = () => {
               <div className="w-80 h-80 rounded-full overflow-hidden shadow-elegant ring-4 ring-primary/20">
                 <img 
                   src={profilePhoto} 
-                  alt="Linda Aluso, founder of The Forward Virtual Assistant"
+                  alt="Linda Aluso, founder of The Forward Analytics"
                   className="w-full h-full object-cover"
                 />
               </div>

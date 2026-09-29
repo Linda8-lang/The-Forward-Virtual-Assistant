@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import ScrollManager from "./components/ScrollManager";
 import DataAnalysisDashboard from "./pages/projects/DataAnalysisDashboard";
 import DynamicRowLevelSecurity from "./pages/projects/DynamicRowLevelSecurity";
 import VirtualSupportAutomation from "./pages/projects/VirtualSupportAutomation";
@@ -18,6 +19,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter basename="/The-Forward-Virtual-Assistant/">
+        <ScrollManager />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/projects/data-analysis-dashboard" element={<DataAnalysisDashboard />} />

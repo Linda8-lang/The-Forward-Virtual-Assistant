@@ -6,10 +6,10 @@ const AboutSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            About The Forward Virtual Assistant
+            About The Forward Analytics
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Founded by Linda Aluso, Business Intelligence Analyst & Virtual Assistant, to turn business data into actionable insights
+            Founded by Linda Aluso, Business Intelligence Analyst, to turn business data into actionable insights
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto mt-6"></div>
         </div>
@@ -20,13 +20,13 @@ const AboutSection = () => {
             <div>
               <h3 className="text-2xl font-semibold text-primary mb-4">Meet the Founder</h3>
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                Welcome to The Forward Virtual Assistant (TFVA). I'm Linda Aluso, a dedicated business intelligence professional with over 2 years of experience in transforming complex datasets into clear, actionable business insights.
+                Welcome to The Forward Analytics. I'm Linda Aluso, a dedicated business intelligence professional with over 2 years of experience in transforming complex datasets into clear, actionable business insights.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                 My journey began with a fascination for patterns hidden within numbers. Today, I help businesses across various industries make informed decisions through comprehensive data analysis, visualization, and strategic insights.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                At TFVA, I believe every dataset tells a story. My mission is to help you discover that story and use it to drive your business forward with confidence.
+                At The Forward Analytics, I believe every dataset tells a story. My mission is to help you discover that story and use it to drive your business forward with confidence.
               </p>
             </div>
 

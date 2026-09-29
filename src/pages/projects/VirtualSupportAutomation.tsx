@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import CaseStudyCta from "@/components/CaseStudyCta";
 
 const VirtualSupportAutomation = () => {
   const navigate = useNavigate();
@@ -10,7 +11,7 @@ const VirtualSupportAutomation = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <Button
           variant="ghost"
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/#projects")}
           className="mb-8 hover:bg-secondary"
         >
           <ChevronLeft className="h-4 w-4 mr-2" />
@@ -117,6 +118,7 @@ const VirtualSupportAutomation = () => {
               Start Your Project
             </Button>
           </div>
+          <CaseStudyCta />
         </article>
       </div>
     </div>

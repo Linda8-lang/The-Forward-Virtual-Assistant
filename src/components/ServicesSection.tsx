@@ -48,7 +48,7 @@ const ServicesSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Technical Virtual Assistant Services
+            Analytics & Data Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Remote data support for businesses that need reliable numbers without hiring a full-time analyst. From raw data to actionable insights.
@@ -86,7 +86,7 @@ const ServicesSection = () => {
 
         {/* Benefits Section */}
         <div className="bg-background rounded-2xl p-8 shadow-soft">
-          <h3 className="text-2xl font-bold text-center mb-8 text-foreground">Why Choose TFVA?</h3>
+          <h3 className="text-2xl font-bold text-center mb-8 text-foreground">Why Choose The Forward Analytics?</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {benefits.map((benefit, index) => (
               <div key={index} className="text-center space-y-4">

@@ -56,8 +56,14 @@ const ContactSection = () => {
                 className="h-auto p-6 flex flex-col items-center space-y-3 hover:bg-secondary/50 hover:scale-105 transition-all duration-300 border border-transparent hover:border-primary/20"
                 asChild
               >
-                <a href={method.href} target="_blank" rel="noopener noreferrer">
+                {/* Only web links open a new tab; mailto: in a new tab leaves a blank tab behind */}
+                <a
+                  href={method.href}
+                  {...(method.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                >
+                  {/* Emoji hidden: it duplicated the icon below
                   <span className="text-2xl">{method.emoji}</span>
+                  */}
                   <method.icon className="h-6 w-6 text-primary" />
                   <div className="text-center">
                     <div className="font-semibold text-foreground">{method.label}</div>
@@ -68,6 +74,7 @@ const ContactSection = () => {
             ))}
           </div>
 
+          {/* Social links hidden to keep one clear next step (WhatsApp or email); LinkedIn is in the footer.
           <div className="mt-8 pt-8 border-t border-border/50">
             <div className="flex flex-wrap justify-center gap-4">
               {socialLinks.map((social) => (
@@ -88,12 +95,15 @@ const ContactSection = () => {
               ))}
             </div>
           </div>
+          */}
 
+          {/* Tagline hidden: it repeated the section subtitle
           <div className="mt-8 text-center">
             <p className="text-lg italic text-primary font-medium">
               We're just a message away. Ready to help your business move forward with confidence.
             </p>
           </div>
+          */}
         </Card>
       </div>
     </section>

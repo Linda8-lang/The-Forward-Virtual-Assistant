@@ -9,7 +9,8 @@ const Navigation = () => {
     { name: "Services", href: "#services" },
     { name: "Projects", href: "#projects" },
     { name: "About", href: "#about" },
-    { name: "Contact", href: "#contact" },
+    // Hidden: duplicates the "Start Your Project" button, which also goes to #contact
+    // { name: "Contact", href: "#contact" },
   ];
 
   return (
@@ -18,8 +19,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="flex-shrink-0" onClick={() => setIsOpen(false)}>
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              <span className="hidden sm:inline">The Forward Virtual Assistant</span>
-              <span className="sm:hidden">TFVA</span>
+              The Forward Analytics
             </span>
           </a>
 

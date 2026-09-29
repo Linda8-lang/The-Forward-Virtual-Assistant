@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-"The Forward Virtual Assistant" (TFVA) is a single-page B2B business site for a technical virtual assistant / data services business, founded by Linda Aluso. Copy should read as a business ("we", services, results), not a personal portfolio or CV. It was generated with Lovable (lovable.dev) and uses Vite, React 18, TypeScript, shadcn-ui (Radix) and Tailwind CSS. It is deployed to GitHub Pages under the `/The-Forward-Virtual-Assistant/` sub-path.
+"The Forward Analytics" (formerly The Forward Virtual Assistant) is a single-page B2B business site for an analytics and data services business, founded by Linda Aluso. Copy should read as a business ("we", services, results), not a personal portfolio or CV. It was generated with Lovable (lovable.dev) and uses Vite, React 18, TypeScript, shadcn-ui (Radix) and Tailwind CSS. It is deployed to GitHub Pages under the `/The-Forward-Virtual-Assistant/` sub-path; the repo and URL keep the old name on purpose, because renaming would break the live link.
 
 ## Commands
 
